@@ -1,0 +1,20 @@
+{
+  "name": "newtienda-main",
+  "version": "1.0.0",
+  "description": "Web store",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server":"nodemon index.js"
+  },
+  "author": "omarbustos2013@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/local-auth": "^2.1.0",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "googleapis": "^105.0.0",
+    "nodemon": "^3.0.2"
+  }
+
+}
